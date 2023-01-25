@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import useAuth from "../hooks/UseAuth";
 import { Formik, Form } from "formik";
-import * as yup from "yup";
+import * as yup from 'yup';
 
 const REQUIRED_AUTHENTICATION = {
   email: "test@test.com",
