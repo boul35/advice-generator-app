@@ -2,6 +2,7 @@ import Card from "./Card";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AuthLayout from '../auth/components/AuthLayout';
 import PokemonLayout from "./Layout";
+import React, { Component }  from 'react';
 
 function App() {
   return (
